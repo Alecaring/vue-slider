@@ -12,6 +12,15 @@
 .ms_ul_style {
     list-style-type: none;
 }
+.ms_hoover_icons_navbar_green svg:hover {
+    fill: green;
+}
+.ms_hoover_icons_navbar_red svg:hover {
+    fill: red;
+}
+.ms_hoover_icons_navbar_lightblue svg:hover {
+    fill: rgb(0, 115, 255);
+}
 .top_form_section {
     width: 100%;
     background-color: #05203c;
@@ -91,5 +100,13 @@
 }
 .ms_footer_container {
     background-color: #05203c;
-    height: 50vh;
+}
+.ms_flag {
+
+    width: 20px;
+    border: 1px solid white;
+
+}
+.ms_footer_internal_container {
+    width: 22vw;
 }

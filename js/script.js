@@ -64,6 +64,15 @@ createApp({
 
         }
     },
+    ShowPrev: function() {
+        if (this.activeIndex <= 0) {
+            this.activeIndex = this.Slider.images.length -1;
+
+        } else {
+            this.activeIndex --;
+
+        }
+    },
     ShowNext1: function() {
 
         if (this.activeIndex1 === this.Slider1.images1.length -1) {
@@ -71,6 +80,15 @@ createApp({
 
         } else {
             this.activeIndex1++;
+
+        }
+    },
+    ShowPrev1: function() {
+        if (this.activeIndex1 <= 0) {
+            this.activeIndex1 = this.Slider1.images1.length -1;
+
+        } else {
+            this.activeIndex1 --;
 
         }
     }
